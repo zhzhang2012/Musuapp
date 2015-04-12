@@ -59,12 +59,12 @@ angular.module('mean.system').config(['$meanStateProvider', '$urlRouterProvider'
 //        templateUrl: 'system/views/index.html'
 //      });
 
-    $meanStateProvider
-      .state('Log Out', {        
-        controller: function () {
-          window.location = '/logout';
-        }
-      });      
+//    $meanStateProvider
+//      .state('Log Out', {
+//        controller: function () {
+//          window.location = '/logout';
+//        }
+//      });
   }
 ]).config(['$locationProvider',
   function($locationProvider) {
